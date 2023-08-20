@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: Inter , sans-serif;
+}
+
+nav{
+    background-color: #21222a;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 30px 20px;
+}
+
+nav h3{
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 20pt;
+    margin-right: auto;
+}
+nav h4{
+    margin:0;
+    color: #deebf8;
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+img{
+    width:40px;
+    margin-right:3px;
+}
+
+main ul{
+    margin-top: 20px;
+    
+}
+
+main ul li::before{
+    font-size: 20pt;
+    content: "\2022"; 
+    color:#61dafb; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+main ul li{
+    list-style: none;
+    font-size: 15pt;
+    padding: 10px 0 10px 0;
+    max-width: 370px;
+}
+
+main{
+    background: #282d35 url(../media/react-logo-cropped.png) no-repeat right center;
+    background-size: 150px;
+    padding : 35px 25px;
+}
+h1{
+    margin-top: 0;
+    font: 39px;
+}
+h1 , li{
+    font-family: sans-serif;
+    color:#E1E4EC
+}
